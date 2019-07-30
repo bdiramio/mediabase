@@ -19,7 +19,7 @@ jobs:
     - git tag -f $RELEASE_TAG
     deploy:
       provider: releases
-      api_key: e8f53f5f4951eb7e950872622487940308ea366c
+      api_key: 39865f835528c64df4677ef0c1126918d3206a25
       file: "build/libs/mediabase-1.0-SNAPSHOT.war"
       skip_cleanup: true
   - stage: deploy to test
