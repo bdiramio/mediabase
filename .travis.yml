@@ -31,7 +31,7 @@ jobs:
     - echo "Deploying $RELEASE_TAG to test"
     deploy:
       provider: cloudfoundry
-      api: https://api.sys.pcf.paltraining.perficient.com
+      api: api.sys.pcf.paltraining.perficient.com
       username: Bobd@Well-B.com
       password: cQmHURYj
       organization: Bobd
